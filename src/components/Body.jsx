@@ -3,6 +3,8 @@ import Animate from './Animate'
 import SOLIQCards from './SOLIQCards'
 import DiscoverCards from './DiscoverCards'
 import LineBreak from './LineBreak'
+import Community from './Community'
+import Footer from './Footer'
 
 const Body = () => {
   return (
@@ -11,6 +13,9 @@ const Body = () => {
         <SOLIQCards />
         <DiscoverCards />
         <LineBreak />
+        <Community />
+        <LineBreak />
+        <Footer />
     </div>
   )
 }

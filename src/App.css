@@ -21,6 +21,11 @@ a{
 }
 header {
   width: 90%;
+  position: sticky;
+  background-color: #000;
+  z-index: 10;
+  top: 0;
+  left: 0;
   height: 60px;
   margin: 0 auto;
   display: flex;
@@ -33,6 +38,23 @@ header a {
 }
 header a * {
   font-size: 16px;
+}
+nav{
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  padding: 60px 0;
+  padding-top: 40px;
+  background: #000;
+}
+nav .link {
+  margin-top: 24px;
+}
+nav a {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  /* display: none; */
 }
 header h2{
   color: rgb(255, 255, 255);
@@ -152,4 +174,47 @@ header span {
   width: 90%;
   margin: 40px 0;
   border-top: 1px solid hsla(0, 0%, 100%, .1);;
+}
+
+.social-card-container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.social-card {
+  display: inline-flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 30px;
+  text-align: center;
+  border-radius: 24px;
+  background: rgb(21, 21, 21);
+}
+.social-card div {
+  margin-top: 24px;
+}
+.social-card div h5 {
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+.social-card div h6 {
+  margin-top: 12px;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+
+footer {
+  margin: 40px 16px;
+  color: rgb(153, 153, 153);
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.icon {
+  cursor: pointer;
 }
