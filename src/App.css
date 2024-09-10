@@ -2,20 +2,21 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  /* scroll-behavior: smooth; */
+  scroll-behavior: smooth;
   /* transition: all 10s ease-in-out !important; */
 }
 body{
   font-family: "Montserrat", Helvetica, sans-serif;
   background-color: #000;
   color: white;
+  scroll-behavior: smooth;
   /* overflow-y: hidden; */
   /* overflow-x: ; */
   
 }
-.container::-webkit-scrollbar{
-  /* display: none !important; */
-}
+/* .container::-webkit-scrollbar{
+ 
+} */
 
 a{
   text-decoration: none;

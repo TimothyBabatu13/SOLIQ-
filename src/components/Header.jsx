@@ -16,7 +16,7 @@ const Header = () => {
         }
       </div>
       {
-        isOpen &&  <NAV />
+        isOpen &&  <NAV setIsOpen={setIsOpen} />
       }
     </header>
   )
