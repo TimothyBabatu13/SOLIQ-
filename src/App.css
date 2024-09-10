@@ -235,6 +235,12 @@ header span {
   color: rgb(255, 255, 255);
 }
 
+.community h5{
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 40px;
+}
 footer {
   margin: 40px 16px;
   color: rgb(153, 153, 153);
@@ -245,6 +251,12 @@ footer {
 
 .icon {
   cursor: pointer;
+}
+
+@media screen and (max-width: 422px) {
+  .links {
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 390px) {

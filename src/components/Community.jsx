@@ -2,7 +2,7 @@ import SocialHandleCard from "./SocialHandleCard"
 
 const Community = () => {
   return (
-    <div>
+    <div className="community">
         <h5>Join Our Community</h5>
         <SocialHandleCard 
           href={''} 
