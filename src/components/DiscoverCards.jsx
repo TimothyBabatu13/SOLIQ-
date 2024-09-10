@@ -26,7 +26,7 @@ const DiscoverCards = () => {
                 <Link href={'/'}>Early Brids Token Alerts</Link>
                 <Link href={'/'}>New Pair Alerts</Link>
             </Links>
-            <img src="/a.png" width={375} alt="w" />
+            <img src="/a.png" alt="w" />
         </DiscoverCard>
 
         <DiscoverCard>
@@ -35,7 +35,7 @@ const DiscoverCards = () => {
             <Links>
                 <Link href={'/'}>Wallet Monitor</Link>
             </Links>
-            <img src="/a.png" width={375} alt="w" />
+            <img src="/a.png" alt="w" />
         </DiscoverCard>
 
         <DiscoverCard>
@@ -44,7 +44,7 @@ const DiscoverCards = () => {
             <Links>
                 <Link href={'/'}>Token Analysis</Link>
             </Links>
-            <img src="/a.png" width={375} alt="w" />
+            <img src="/a.png" alt="w" />
         </DiscoverCard>
 
         <DiscoverCard>
@@ -53,7 +53,7 @@ const DiscoverCards = () => {
             <Links>
                 <Link href={'/'}>Join Community</Link>
             </Links>
-            <img src="/a.png" width={375} alt="w" />
+            <img src="/a.png" alt="w" />
         </DiscoverCard>
     </div>
   )
